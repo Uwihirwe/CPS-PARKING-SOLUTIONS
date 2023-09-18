@@ -1,0 +1,124 @@
+:root {
+    --text: #12171c;
+    --background: #f9fafb;
+    --primary: #021D33;
+    --secondary: #cbc1d7;
+    --accent: #64507c;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bgcar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.ptitle {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    /* color: var(--background); */
+    margin: 50px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw; 
+    background-color: var(--primary);
+    padding: 50px 30px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--background);
+    margin: 0px 0px 10px 0px;
+}
+
+input, select {
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+select {
+    padding: 10px;
+}
+
+input:active {
+    outline: none;
+}
+
+#unparkform {
+    margin-top: 100px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.small {
+    font-size: 14px;
+    color: white;
+}
+
+.small a {
+    color: aqua;
+}
+
+button[type=submit]:hover {
+    background-color: aqua;
+    border: none;
+}
+
+.paydetails {
+    background-color: var(--primary);
+    margin: 0px auto;
+    width: 60%;
+    padding: 20px 20px 50px 20px;
+    color: white;
+    font-size: 22px;
+}
+
+.paydetails ul li {
+    margin-bottom: 7px;
+}
+
+.paymeth {
+    display: flex;
+    justify-content: space-around;
+}
+
+.paymeth img {
+    height: 50px;
+    background-color: #fff;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.payoption {
+    background-color: var(--primary);
+    margin-bottom: 160px;
+}
+
+* {
+    /* border: red solid 1px; */
+}
+
+
+.paytitle {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    color: var(--background);
+    padding: 50px 0px;
+}

@@ -1,0 +1,141 @@
+:root {
+    --text: #12171c;
+    --background: #f9fafb;
+    --primary: #021D33;
+    --secondary: #cbc1d7;
+    --accent: #64507c;
+}
+
+.main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/bgcar.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    padding-bottom: 200px;
+}
+
+.ptitle {
+    font-size: 42px;
+    font-weight: bolder;
+    text-align: center;
+    /* color: var(--background); */
+    margin: 50px 0px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 50vw; 
+    background-color: var(--primary);
+    padding: 50px 30px;
+    margin: 0 auto;
+}
+
+label {
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--background);
+    margin: 0px 0px 10px 0px;
+}
+
+input, select {
+    font-size: 20px;
+    outline: none;
+    margin-bottom: 20px;
+
+}
+
+select {
+    padding: 10px;
+}
+
+input:active {
+    outline: none;
+}
+
+#unparkform {
+    margin-top: 100px;
+}
+
+.middle {
+    text-align: center;
+}
+
+.small {
+    font-size: 14px;
+    color: white;
+}
+
+.small a {
+    color: aqua;
+}
+
+button[type=submit]:hover {
+    background-color: aqua;
+    border: none;
+}
+
+
+/* start of tables */
+.tables {
+    width: 90%;
+    margin: 0 auto 180px auto;
+    border-collapse: collapse;
+}
+
+.tables td,
+.tables th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+.tables tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.tables tr:hover {
+    background-color: #ddd;
+}
+
+.tables th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary);
+    color: white;
+    font-weight: bolder;
+}
+/* end of tables */
+
+input[readonly] {
+    background-color: var(--secondary);
+    outline: none;
+    border: none;
+}
+
+
+.notifications {
+    background-color: var(--primary);
+    margin: 0 auto 100px auto;
+    width: 70%;
+    padding: 20px 50px;
+    border-radius: 5px;
+    color: white;
+    font-size: 22px;
+}
+
+.notitems li {
+    margin-bottom: 8px;
+}
+
+.notitems li a {
+    color: aqua;
+}
+
+.notitle {
+    text-align: center;
+    margin-bottom: 30px;
+}
